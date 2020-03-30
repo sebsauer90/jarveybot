@@ -1,0 +1,17 @@
+{
+  "name": "@jarveybot/package",
+  "description": "A chat bot library, which you can use as react component, react hook, or vanilla javascript module.",
+  "keywords": ["Chatbot", "React Component", "React Hook"],
+  "version": "0.1.0",
+  "author": "Sebastian Sauer <sebsauer90@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "bootstrap": "lerna exec npm install",
+    "watch": "lerna run --parallel watch",
+    "build": "lerna run build"
+  }
+}

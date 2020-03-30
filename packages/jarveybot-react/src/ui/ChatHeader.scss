@@ -1,0 +1,32 @@
+@import "../variables.scss";
+
+.jb {
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: .75rem 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .05);
+  
+    &__headline {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+  }
+
+  &__close {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    transform: translateY(-50%);
+  
+    svg {
+      display: block;
+    }
+  }
+}

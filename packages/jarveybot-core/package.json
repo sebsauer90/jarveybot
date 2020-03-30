@@ -1,0 +1,38 @@
+{
+  "name": "@jarveybot/core",
+  "description": "A chat bot library, which you can use as react component, react hook, or vanilla javascript module.",
+  "keywords": [
+    "Chatbot",
+    "React Component",
+    "React Hook"
+  ],
+  "version": "0.1.0",
+  "author": "Sebastian Sauer <sebsauer90@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/lib/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "watch": "tsc -w",
+    "build": "tsc --module commonjs",
+    "start": "npm run watch"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "postcss-loader": "^3.0.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "style-loader": "^1.1.3"
+  }
+}

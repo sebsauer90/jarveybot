@@ -1,0 +1,41 @@
+@import "../variables.scss";
+
+.jb {
+  &__content {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background: $grayLight;
+  
+    &::-webkit-scrollbar-track {
+      background-color: $grayLight;
+    }
+  
+    &::-webkit-scrollbar {
+      width: 5px;
+      background-color: $grayLight;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: $brandPrimary;
+    }
+  }
+
+  &__message {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: .75rem;
+    background: $beeandSecondary;
+    border-radius: 1rem;
+    border-top-left-radius: 0;
+    text-align: left;
+
+    &--user {
+      margin-left: auto;
+      background: $brandPrimary;
+      color: $brandMain;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 0;
+    }
+  }
+}
