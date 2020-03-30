@@ -7,7 +7,6 @@ function Chat() {
   return (
     <div>
       <JarvyBot
-        test={React}
         messages={messages}
         initialMessage="start"
         thinkingTime={1000}
