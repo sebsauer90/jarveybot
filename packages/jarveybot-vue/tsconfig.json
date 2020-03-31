@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "esnext",
+        "sourceMap": true,
+        "declaration": true,
+        "jsx": "preserve"
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
