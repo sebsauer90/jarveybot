@@ -1,5 +1,5 @@
 {
   "presets": [
-    ["@babel/env"]
+    ["vca-jsx","@babel/env"]
   ]
 }
