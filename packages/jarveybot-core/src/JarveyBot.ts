@@ -164,9 +164,15 @@ class JarvyBot {
   }
 
   async startConversation(messageId: string) {
-    await this.setIsThinking(true);
-    this.viewMessage(messageId);
-    this.setIsThinking(false);
+    if (this.chatHistory.length === 0) {
+      await this.setIsThinking(true);
+      this.viewMessage(messageId);
+      this.setIsThinking(false);
+      return;
+    }
+
+    if (this.handleSetMessage && this.currentMessage) this.handleSetMessage(this.currentMessage);
+    if (this.handleSetHistory) this.handleSetHistory(this.chatHistory);
   }
 
   async handleResponse(value: any, message: string) {
