@@ -1,6 +1,6 @@
 import { defineComponent, ref, watch } from '@vue/composition-api';
 import { AuthorType } from '@jarveybot/core';
-import '../../../jarveybot-react/src/ui/ChatContent.scss';
+import '../../../jarveybot-styles/src/Content.scss';
 
 export default defineComponent({
   name: 'Content',

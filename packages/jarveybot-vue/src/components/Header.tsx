@@ -1,5 +1,5 @@
 import { defineComponent } from '@vue/composition-api';
-import '../../../jarveybot-react/src/ui/ChatHeader.scss';
+import '../../../jarveybot-styles/src/Header.scss';
 import IconClose from './icons/IconClose';
 
 export default defineComponent({

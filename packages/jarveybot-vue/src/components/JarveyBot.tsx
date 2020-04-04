@@ -3,7 +3,7 @@ import { useJarveyBot } from '../composition/useJarveyBot';
 import Header from './Header';
 import Content from './Content';
 import Footer from './Footer';
-import '../../../jarveybot-react/src/ui/Chat.scss';
+import '../../../jarveybot-styles/src/Chat.scss';
 
 export default defineComponent({
   name: 'JarveyBot',

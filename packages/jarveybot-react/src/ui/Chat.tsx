@@ -4,7 +4,7 @@ import useJarvyBot from '../hook/useJarvyBot';
 import ChatHeader from './ChatHeader';
 import ChatContent from './ChatContent';
 import ChatFooter from './ChatFooter';
-import './Chat.scss';
+import '../../../jarveybot-styles/src/Chat.scss';
 
 interface PropsInterface {
   messages: MessageInterface[],
@@ -41,7 +41,7 @@ function Chat(props: PropsInterface) {
       <ChatHeader
         handleCloseChat={handleCloseChat}
       />
-      
+
       <ChatContent
         history={history}
         isThinking={isThinking}

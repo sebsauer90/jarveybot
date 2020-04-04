@@ -1,5 +1,5 @@
 import { defineComponent, onMounted, watch } from '@vue/composition-api';
-import '../../../jarveybot-react/src/ui/ChatFooter.scss';
+import '../../../jarveybot-styles/src/Footer.scss';
 import IconSend from './icons/IconSend';
 
 export default defineComponent({
