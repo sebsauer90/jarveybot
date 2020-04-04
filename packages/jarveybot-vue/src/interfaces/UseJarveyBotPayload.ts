@@ -1,4 +1,4 @@
-import { MessageInterface } from '../../../jarveybot-core/src/interfaces';
+import { MessageInterface } from '@jarveybot/core';
 
 export default interface UseJarveyBotPayload {
   messages: MessageInterface[],

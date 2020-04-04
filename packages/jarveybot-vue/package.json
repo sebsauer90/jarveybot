@@ -17,6 +17,7 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@jarveybot/core": "0.1.0",
     "@babel/core": "^7.9.0",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/preset-env": "^7.9.0",
@@ -26,6 +27,7 @@
     "@vue/composition-api": "^0.5.0",
     "babel-loader": "^8.1.0",
     "babel-preset-vca-jsx": "^0.3.4",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "mini-css-extract-plugin": "^0.9.0",

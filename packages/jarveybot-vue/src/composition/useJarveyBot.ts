@@ -1,6 +1,6 @@
-import { HistoryMessageInterface, MessageDisplayInterface } from '../../../jarveybot-core/src/interfaces';
-import JarvyBot from '../../../jarveybot-core/src/JarveyBot';
 import { onMounted, ref } from '@vue/composition-api';
+import JarvyBot from '@jarveybot/core';
+import  { HistoryMessageInterface, MessageDisplayInterface } from '@jarveybot/core';
 import UseJarveyBotPayload from '../interfaces/UseJarveyBotPayload';
 
 const jarvyBot = new JarvyBot();
