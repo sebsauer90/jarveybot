@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { AuthorType, HistoryMessageInterface } from '@jarveybot/core';
-import '../../../jarveybot-styles/src/Content.scss';
+import '@jarveybot/styles/dist/scss/Content.scss';
 
 interface PropsInterface {
   history: HistoryMessageInterface[];

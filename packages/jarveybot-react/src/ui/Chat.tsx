@@ -4,7 +4,7 @@ import useJarvyBot from '../hook/useJarvyBot';
 import ChatHeader from './ChatHeader';
 import ChatContent from './ChatContent';
 import ChatFooter from './ChatFooter';
-import '../../../jarveybot-styles/src/Chat.scss';
+import '@jarveybot/styles/dist/scss/Chat.scss';
 
 interface PropsInterface {
   messages: MessageInterface[],

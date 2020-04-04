@@ -1,6 +1,6 @@
 import { defineComponent } from '@vue/composition-api';
-import '../../../jarveybot-styles/src/Header.scss';
 import IconClose from './icons/IconClose';
+import '@jarveybot/styles/dist/scss/Header.scss';
 
 export default defineComponent({
   name: 'Header',

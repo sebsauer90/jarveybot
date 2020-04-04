@@ -1,6 +1,6 @@
 import React from 'react';
 import CloseIcon from '../icons/Close';
-import '../../../jarveybot-styles/src/Header.scss';
+import '@jarveybot/styles/dist/scss/Header.scss';
 
 interface PropsInterface {
   handleCloseChat?: Function;

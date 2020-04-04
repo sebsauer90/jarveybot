@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { MessageDisplayInterface, HistoryMessageInterface } from '@jarveybot/core';
 import SendIcon from '../icons/Send';
-import '../../../jarveybot-styles/src/Footer.scss';
+import '@jarveybot/styles/dist/scss/Footer.scss';
 
 interface PropsInterface {
   currentMessage: MessageDisplayInterface | null;

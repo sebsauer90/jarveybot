@@ -1,6 +1,6 @@
 import { defineComponent, onMounted, watch } from '@vue/composition-api';
-import '../../../jarveybot-styles/src/Footer.scss';
 import IconSend from './icons/IconSend';
+import '@jarveybot/styles/dist/scss/Footer.scss';
 
 export default defineComponent({
   name: 'Footer',

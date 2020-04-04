@@ -13,5 +13,11 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {},
-  "scripts": {}
+  "scripts": {
+    "build": "bash ./build.sh",
+    "watch": "node-sass ./src/style.scss --watch scss -o css"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
