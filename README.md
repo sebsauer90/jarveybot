@@ -65,14 +65,3 @@ jarvyBot.initialize({
 * Add overview message option
 * Add a vueJS Connector
 ...
-
-## Development
-### Install dependencies
-```
-npm run bootstrap
-```
-
-### Start development mode
-```
-npm run watch
-```

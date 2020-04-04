@@ -1,14 +1,18 @@
 {
   "name": "@jarveybot/landingpage",
   "description": "A chat bot library, which you can use as react component, react hook, or vanilla javascript module.",
-  "keywords": ["Chatbot", "React Component", "React Hook"],
+  "keywords": [
+    "Chatbot",
+    "React Component",
+    "React Hook"
+  ],
   "version": "0.1.0",
   "author": "Sebastian Sauer <sebsauer90@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@jarveybot/core": "0.1.0",
-    "@jarveybot/react": "0.1.0",
+    "@jarveybot/core": "^0.1.0",
+    "@jarveybot/react": "^0.1.0",
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
     "gatsby-plugin-alias-imports": "^1.0.5",
@@ -28,6 +32,8 @@
   "devDependencies": {
     "@types/styled-components": "^5.0.1",
     "eslint-config-react-app": "^5.2.1",
+    "gatsby-plugin-sass": "^2.2.1",
+    "node-sass": "^4.13.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^1.19.1"
   },

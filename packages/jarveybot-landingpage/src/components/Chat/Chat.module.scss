@@ -1,0 +1,13 @@
+.conatiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.chat {
+  width: 23rem;
+  height: 34rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+  border-radius: 1rem;
+  overflow: hidden;
+}
