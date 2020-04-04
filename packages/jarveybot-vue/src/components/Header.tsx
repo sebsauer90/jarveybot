@@ -1,8 +1,12 @@
 import { defineComponent } from '@vue/composition-api';
 import '../../../jarveybot-react/src/ui/ChatHeader.scss';
+import IconClose from './icons/IconClose';
 
 export default defineComponent({
   name: 'Header',
+  components: {
+    IconClose,
+  },
   props: {
     handleCloseChat: {
       type: Function,
@@ -21,10 +25,7 @@ export default defineComponent({
             onclick={() => {
               props.handleCloseChat();
             }}>
-            X
-            {
-              // <CloseIcon/>
-            }
+            <IconClose/>
           </button>
         )}
       </div>

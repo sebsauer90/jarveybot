@@ -1,8 +1,12 @@
 import { defineComponent, onMounted, watch } from '@vue/composition-api';
 import '../../../jarveybot-react/src/ui/ChatFooter.scss';
+import IconSend from './icons/IconSend';
 
 export default defineComponent({
   name: 'Footer',
+  components: {
+    IconSend,
+  },
   props: {
     currentMessage: {
       type: Object,
@@ -114,7 +118,7 @@ export default defineComponent({
               props.handleResponse(props.text, props.text);
             }
           }}>
-          SEND
+          <IconSend/>
         </button>
       </div>
     );
