@@ -28,7 +28,7 @@ export default defineComponent({
     });
 
     const text = ref<string>('');
-    const inputNode =ref<any>(null);
+    const inputNode = ref<any>(null);
 
     onMounted(()=> {
       startConversation();
