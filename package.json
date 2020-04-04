@@ -10,7 +10,6 @@
     "lerna": "^3.20.2"
   },
   "scripts": {
-    "bootstrap": "lerna exec npm install",
     "watch": "lerna run --parallel watch",
     "build": "lerna run build"
   }

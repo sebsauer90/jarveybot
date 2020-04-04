@@ -7,6 +7,7 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
