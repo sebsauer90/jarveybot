@@ -8,7 +8,7 @@ import {
 } from './interfaces';
 import { validate } from './validator';
 
-interface InitializeParamsInterface {
+export interface InitializeParamsInterface {
   handleSetMessage: handleSetMessageType;
   handleSetHistory: handleSetHistoryType;
   messages?: MessageInterface[];

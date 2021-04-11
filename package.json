@@ -1,7 +1,13 @@
 {
   "name": "@jarveybot/package",
   "description": "A chat bot library, which you can use as react component, react hook, or vanilla javascript module.",
-  "keywords": ["Chatbot", "React Component", "React Hook"],
+  "keywords": [
+    "Chatbot",
+    "React Component",
+    "React Hook",
+    "Vue Component",
+    "Vue Composiotion function"
+  ],
   "version": "0.1.0",
   "author": "Sebastian Sauer <sebsauer90@gmail.com>",
   "license": "MIT",

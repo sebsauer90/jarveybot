@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "@babel/env",
+    "vca-jsx",
+    "@vue/app",
+    "@babel/typescript"
+  ]
+}

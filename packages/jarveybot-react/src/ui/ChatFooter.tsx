@@ -57,7 +57,7 @@ function ChatFooter(props: PropsInterface) {
             {currentMessage.action.type === 'select' && (
               <div>
                 {currentMessage!!.action!!.options!!.map(({ label, value }, index) => (
-                  <button 
+                  <button
                     ref={index === 0 ? inputNode : null}
                     key={value}
                     className="jb__option"

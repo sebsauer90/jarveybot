@@ -37,6 +37,38 @@ const { currentMessage, history, handleResponse, isThinking, startConversation }
 startConversation();
 ```
 
+### Usage as Vue component
+
+```
+import JarvyBot from '@jarveybot/vue';
+import '@jarveybot/vue/dist/style.css';
+
+<JarvyBot
+  messages={messages}
+  initialMessage="MESSAGE_ID"
+  thinkingTime={1000}
+  handleCloseChat={() => {
+    console.log('close');
+  }}
+/>
+```
+
+### Usage as Vue composition function
+
+```
+import {useJarvyBot} from '@jarveybot/vue';
+
+...
+const { currentMessage, history, handleResponse, isThinking, startConversation } = useJarvyBot({
+  messages: MessageInterface[],
+  initialMessage: string,
+  thinkingTime?: number,
+  handleDone?: Function,
+});
+...
+startConversation();
+```
+
 ### Usage as vanilla javascript module
 TODO: Add documentation
 
