@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import "variables";
 
 .jb {
   &__header {
@@ -8,7 +8,7 @@
     position: relative;
     padding: .75rem 1rem;
     box-shadow: 0 0 15px rgba(0, 0, 0, .05);
-  
+
     &__headline {
       margin: 0;
       font-size: 1.2rem;
@@ -24,7 +24,7 @@
     background: none;
     border: 0;
     transform: translateY(-50%);
-  
+
     svg {
       display: block;
     }

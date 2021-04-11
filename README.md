@@ -7,10 +7,10 @@ A chat bot library, which you can use as react component, react hook, or vanilla
 TODO: Add documentation
 
 ```
-import JarvyBot from '@jarveybot/react';
+import JarveyBot from '@jarveybot/react';
 import '@jarveybot/react/dist/style.css';
 
-<JarvyBot
+<JarveyBot
   messages={messages}
   initialMessage="MESSAGE_ID"
   thinkingTime={1000}
@@ -24,10 +24,10 @@ import '@jarveybot/react/dist/style.css';
 TODO: Add documentation
 
 ```
-import useJarvyBot from '../hook/useJarvyBot';
+import useJarveyBot from '../hook/useJarveyBot';
 
 ...
-const { currentMessage, history, handleResponse, isThinking, startConversation } = useJarvyBot({
+const { currentMessage, history, handleResponse, isThinking, startConversation } = useJarveyBot({
   messages: MessageInterface[],
   initialMessage: string,
   thinkingTime?: number,
@@ -40,10 +40,10 @@ startConversation();
 ### Usage as Vue component
 
 ```
-import JarvyBot from '@jarveybot/vue';
+import JarveyBot from '@jarveybot/vue';
 import '@jarveybot/vue/dist/style.css';
 
-<JarvyBot
+<JarveyBot
   messages={messages}
   initialMessage="MESSAGE_ID"
   thinkingTime={1000}
@@ -56,10 +56,10 @@ import '@jarveybot/vue/dist/style.css';
 ### Usage as Vue composition function
 
 ```
-import {useJarvyBot} from '@jarveybot/vue';
+import {useJarveyBot} from '@jarveybot/vue';
 
 ...
-const { currentMessage, history, handleResponse, isThinking, startConversation } = useJarvyBot({
+const { currentMessage, history, handleResponse, isThinking, startConversation } = useJarveyBot({
   messages: MessageInterface[],
   initialMessage: string,
   thinkingTime?: number,
@@ -73,11 +73,11 @@ startConversation();
 TODO: Add documentation
 
 ```
-import JarvyBot from '@jarveybot/core';
+import JarveyBot from '@jarveybot/core';
 
-const jarvyBot = new JarvyBot();
+const jarveyBot = new JarveyBot();
 
-jarvyBot.initialize({
+jarveyBot.initialize({
   handleSetMessage: handleSetMessageType,
   handleSetHistory: handleSetHistoryType,
   messages?: MessageInterface[],
@@ -87,7 +87,7 @@ jarvyBot.initialize({
   debug?: boolean,
 });
 
- jarvyBot.startConversation('MESSAGE_ID');
+ jarveyBot.startConversation('MESSAGE_ID');
 ```
 
 ## What's next?

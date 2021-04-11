@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import "variables";
 
 .jb {
   &__footer {
@@ -10,7 +10,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, .05);
     text-align: left;
   }
-  
+
   &__userInput {
     flex-grow: 1;
     min-height: 3rem;
@@ -53,11 +53,11 @@
     transform: translateY(-50%);
     background: none;
     border: 0;
-  
+
     svg {
       display: block;
       width: 1.5rem;
       fill: $brandPrimary;
     }
-  }  
+  }
 }

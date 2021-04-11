@@ -1,4 +1,4 @@
-@import "../variables.scss";
+@import "variables";
 
 .jb {
   &__content {
@@ -6,16 +6,16 @@
     padding: 1rem;
     overflow-y: auto;
     background: $grayLight;
-  
+
     &::-webkit-scrollbar-track {
       background-color: $grayLight;
     }
-  
+
     &::-webkit-scrollbar {
       width: 5px;
       background-color: $grayLight;
     }
-  
+
     &::-webkit-scrollbar-thumb {
       background-color: $brandPrimary;
     }
