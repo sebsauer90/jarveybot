@@ -30,7 +30,7 @@
   "devDependencies": {
     "css-loader": "^3.4.2",
     "gatsby-plugin-sass": "^2.2.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss-loader": "^3.0.0",
     "typescript": "^3.8.3"
   },
